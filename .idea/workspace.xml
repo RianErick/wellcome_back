@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45f0f2e0-7ca6-4499-9231-27eaa494bda9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Atividade_01/Tipos_De_Entradas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Atividade_02/NumeroDaSorte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Atividade_03/Ficha_Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Introducao_java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wellcome_back.iml" afterDir="false" />
+    <list default="true" id="45f0f2e0-7ca6-4499-9231-27eaa494bda9" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/Atividade_04/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Atividade_05/Numero_Secreto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Introducao_java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atividade_00/Introducao_java.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Ficha_Cadastro">
+}</component>
+  <component name="RunManager" selected="Application.Numero_Secreto">
+    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade_04.Calculadora" />
+      <module name="wellcome_back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Atividade_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ficha_Cadastro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atividade_03.Ficha_Cadastro" />
       <module name="wellcome_back" />
@@ -66,19 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Introducao_java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Introducao_java" />
-      <module name="wellcome_back" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumeroDaSorte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atividade_02.NumeroDaSorte" />
       <module name="wellcome_back" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Atividade_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Numero_Secreto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atividade_05.Numero_Secreto" />
+      <module name="wellcome_back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Atividade_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,10 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Numero_Secreto" />
+        <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.Ficha_Cadastro" />
         <item itemvalue="Application.NumeroDaSorte" />
         <item itemvalue="Application.Tipos_De_Entradas" />
-        <item itemvalue="Application.Introducao_java" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666546571938</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1667053159058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667053159058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +150,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
