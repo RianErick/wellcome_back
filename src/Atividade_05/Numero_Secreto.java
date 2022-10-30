@@ -1,18 +1,23 @@
 package Atividade_05;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Numero_Secreto {
 
-    public static void main(String[] args){
+    public static <Ramdom> void main(String[] args){
 
         Scanner dados = new Scanner(System.in);
 
-        int numeroSecreto = 10;
+        Ramdom n = (Ramdom) new Random();
+
+
+        int numeroSecreto = new Random().nextInt( 100 );
         int nivel;
-        int chute;
+        int chute = 0;
         int tentativas;
 
+        System.out.println(numeroSecreto);
         System.out.println("JOGO DA ADIVINHAÇÃO");
         System.out.println("ESCOLHA O NIVEL DO JOGO :");
         System.out.println("FACIL   1: 20 TENTATIVAS ");
@@ -49,16 +54,17 @@ public class Numero_Secreto {
                 break;
             }else if (chute < 0){
                 System.out.println("O CHUTE NÃO PODE SER NEGATIVO");
-                i++;
+
             }else if (chute > numeroSecreto){
                 System.out.println("O CHUTE FOI MAIOR QUE O NUMERO SECRETO");
             }else if (chute < numeroSecreto){
                 System.out.println("O CHUTE FOI MENOR QUE O NUMERO SECRETO");
             }
-
+             else {
+                System.out.println("USUARIO PERDEU TODAS AS CHANCES");
+            }
 
         }
-        System.out.println(" USUARIO PERDEU TODAS AS TENTATIVAS :( ");
 
     }
 }
