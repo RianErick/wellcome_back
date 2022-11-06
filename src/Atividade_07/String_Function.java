@@ -1,4 +1,4 @@
-package Atividade_7;
+package Atividade_07;
 
 public class String_Function {
 
