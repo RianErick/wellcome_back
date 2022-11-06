@@ -17,7 +17,7 @@ public class Numero_Secreto {
         int chute = 0;
         int tentativas;
 
-        System.out.println(numeroSecreto);
+
         System.out.println("JOGO DA ADIVINHAÇÃO");
         System.out.println("ESCOLHA O NIVEL DO JOGO :");
         System.out.println("FACIL   1: 20 TENTATIVAS ");

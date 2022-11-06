@@ -7,6 +7,7 @@ public class Calculadora {
 
        float operacao ;
        float n1, n2;
+       float result = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("***********CALCULADORA**********");
@@ -25,26 +26,26 @@ public class Calculadora {
 
             switch ((int) operacao) {
                 case 1:
-                    operacao = n1 + n2;
+                    result = n1 + n2;
                     break;
 
                 case 2:
-                    operacao = n1 - n2;
+                   result = n1 - n2;
                     break;
 
                 case 3:
-                    operacao = n1 * n2;
+                result = n1 * n2;
                     break;
 
                 case 4:
-                    operacao = n1 / n2;
+                result = n1 / n2;
                     break;
 
                 default:
                     System.out.println("Numero Invalido Tente Novamente");
             }
-        }while (operacao < 0 || operacao > 4);
+        }while (operacao <= 0 || operacao > 4);
 
-        System.out.println("Resultado Foi : " + operacao);
+        System.out.println("Resultado Foi : " + result);
     }
 }

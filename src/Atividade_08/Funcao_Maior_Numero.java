@@ -2,20 +2,25 @@ package Atividade_08;
 
 import java.util.Scanner;
 
-public class Funcoes {
+public class Funcao_Maior_Numero {
 
 
     public static void main(String args[]){
 
         Scanner dados = new Scanner(System.in);
+
        int a = dados.nextInt();
        int b = dados.nextInt();
        int c = dados.nextInt();
+       String nome = dados.nextLine();
 
+
+        String palavra = n(nome);
 
        int maior = max(a , b , c);
 
-       showResult(maior);
+        System.out.println("Maior " + maior);
+        System.out.println("Nome" + palavra);
 
        dados.close();
     }
@@ -27,15 +32,14 @@ public class Funcoes {
                }else if (y > z){
                  aux = y;
                }else {
-                aux = z;
+                 aux = z;
                }
-
         return aux;
 
      }
-     public static void showResult(int value ){
-         System.out.println("Maior = " + value);
-     }
 
+        public static String n (String g){
 
+           return g;
+        }
 }
