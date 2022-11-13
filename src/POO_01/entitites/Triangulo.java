@@ -1,4 +1,4 @@
-package POO_01.Entites;
+package POO_01.entitites;
 
 
 //Classe Entidade

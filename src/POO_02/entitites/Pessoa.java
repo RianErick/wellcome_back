@@ -1,7 +1,6 @@
-package POO_2.Entites;
+package POO_02.entitites;
 
 public class Pessoa {
-
 
     public String nome;
     public int id;

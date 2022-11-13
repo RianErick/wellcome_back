@@ -54,7 +54,6 @@ public class Numero_Secreto {
                 break;
             }else if (chute < 0){
                 System.out.println("O CHUTE NÃO PODE SER NEGATIVO");
-
             }else if (chute > numeroSecreto){
                 System.out.println("O CHUTE FOI MAIOR QUE O NUMERO SECRETO");
             }else if (chute < numeroSecreto){

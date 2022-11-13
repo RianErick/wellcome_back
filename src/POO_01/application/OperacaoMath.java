@@ -1,6 +1,6 @@
-package POO_01.Application;
+package POO_01.application;
 
-import POO_01.Entites.Triangulo;
+import POO_01.entitites.Triangulo;
 
 import java.util.Scanner;
 
