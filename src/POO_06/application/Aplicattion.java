@@ -1,6 +1,7 @@
 package POO_06.application;
 
 import POO_06.util.Calculadora;
+import sun.util.resources.ca.CalendarData_ca;
 
 import java.util.Scanner;
 
@@ -8,8 +9,8 @@ public class Aplicattion {
 
     public static void main (String [] args){
 
-
         Scanner sc = new Scanner(System.in);
+
         System.out.println("DIGITE O PRIMEIRO VALOR");
         Calculadora.n1 = sc.nextDouble();
         System.out.println("DIGITE O SEGUNDO VALOR");
@@ -27,5 +28,6 @@ public class Aplicattion {
          }
          Calculadora.opr = sc.nextInt();
         System.out.println(Calculadora.result);
+
     }
 }

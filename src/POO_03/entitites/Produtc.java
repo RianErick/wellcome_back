@@ -6,5 +6,13 @@ public class Produtc {
  public int quantidade;
  public double taxas;
 
+ public Produtc (String nome , double preco , int quantidade, double taxas){
+
+   this.nome = nome;
+   this.preco = preco;
+   this.quantidade = quantidade;
+   this.taxas = taxas;
+
+ }
 
 }

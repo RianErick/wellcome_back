@@ -13,8 +13,6 @@ public class String_Function {
         // FUNÇAO LETRAS MAIUSCULAS
         String s02 = original.toUpperCase();
 
-
-
        String s = "rian erick silva";
        String [] vect = s.split("");
 
